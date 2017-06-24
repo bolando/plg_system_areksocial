@@ -1,0 +1,31 @@
+
+
+.iconfb {
+	background-image: url("../images/fb.png");
+	height: 42px;
+    width: 42px;
+	position: fixed;
+	right: 2px;
+	top: 2px;
+
+	
+}
+
+
+.iconyoutube {
+	background-image: url("../images/youtube.png");
+	height: 42px;
+    width: 42px;
+	position: fixed;
+	right: 2px;
+	top: 44px;
+}
+	
+.arek-social-options-wrapper .postbox {
+	padding: 10px 15px;
+}
+
+
+
+
+
