@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="plugin" group="system" version="3.6.5" method="upgrade">
-	<name>Arek social</name>
+	<name>Arek social f</name>
 	<author>Arkadiusz Taraszka</author>
 	<creationDate>April 2017</creationDate>
 	<copyright>Copyright (C) 2017</copyright>
@@ -8,18 +8,18 @@
 	<authorEmail>arkadiusz.taraszka@gmail.com</authorEmail>
 	<authorUrl>brak</authorUrl>
 	<version>1.0</version>
-	<description>Wtyczka linki z ikon do FB i YouTube.</description>
+	<description>Wtyczka linki z ikon do FB i YouTube. Fonty typu awesome.</description>
 	
 	<files>
-		<filename plugin="areksocial">areksocial.php</filename>
+		<filename plugin="areksocial_f">areksocial_f.php</filename>
 		<filename>index.html</filename>
-		<filename>/addons/style.css</filename>
-		<filename>/images/fb.png</filename>
-	    <filename>/images/youtube.png</filename>
+		<filename>/addons/font-awesome.min.css</filename>
+		<folder>fonts</folder>
+
 	</files>
 		
 	<languages>
-		<language tag="pl-PL">pl-PL.plg_system_areksocial.ini</language>
+		<language tag="pl-PL">pl-PL.plg_system_areksocial_f.ini</language>
 	</languages>
 	
 	<config>
@@ -29,14 +29,14 @@
 				<field
 					name="link_fb"
 					type="text" rows="12" cols="80"
-					label="LINK_FB_AREKSOCIAL_FIELD_LABEL"
-					description="LINK_FB_AREKSOCIAL_FIELD_DESC"
+					label="LINK_FB_AREKSOCIAL_F_FIELD_LABEL"
+					description="LINK_FB_AREKSOCIAL_F_FIELD_DESC"
 				/>
 					<field
 					name="link_youtube"
 					type="text" rows="12" cols="80"
-					label="LINK_YOUTUBE_AREKSOCIAL_FIELD_LABEL"
-					description="LINK_YOUTUBE_AREKSOCIAL_FIELD_DESC"
+					label="LINK_YOUTUBE_AREKSOCIAL_F_FIELD_LABEL"
+					description="LINK_YOUTUBE_AREKSOCIAL_F_FIELD_DESC"
 				/>
 				
 			</fieldset>
