@@ -22,7 +22,7 @@ class plgSystemareksocial_f extends JPlugin{
 
 		
 		$strOutputHTML = "";
-		$strOutputHTML .= '<div class="aa-social"><a target="_blank" href="' . $link_fb . '"><i class="fa fa-facebook " ></i></div></a><a target="_blank" href="' . $link_youtube . '"><i class="fa fa-youtube" ></i></div></a></div>';
+		$strOutputHTML .= '<div class="aa-social"><a target="_blank" href="' . $link_fb . '"><i class="fa fa-facebook " ></i></a><a target="_blank" href="' . $link_youtube . '"><i class="fa fa-youtube" ></i></a></div>';
 		
 		$body = $app->getBody();
 		if ($app->isSite() == false)
