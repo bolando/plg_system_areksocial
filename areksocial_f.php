@@ -1,4 +1,4 @@
-	1`<?php
+<?php
 defined('_JEXEC') or die;
 
 jimport('joomla.plugin.plugin');
@@ -22,11 +22,11 @@ class plgSystemareksocial_f extends JPlugin{
 
 		
 		$strOutputHTML = "";
-		$strOutputHTML .= '<a href="' . $link_fb . '"><i class="fa fa-facebook fa-4x" style="height: 42px;
+		$strOutputHTML .= '<a href="' . $link_fb . '"><i class="fa fa-facebook fa-4x" style="height: 32px; color:#fff; background: #3b5998; padding:5px;
     width: 42px;
 	position: fixed;
 	right: 2px;
-	top: 2px;"></i></div></a><a href="' . $link_youtube . '"><i class="fa fa-youtube fa-4x" style="height: 42px;
+	top: 2px;"></i></div></a><a href="' . $link_youtube . '"><i class="fa fa-youtube fa-4x" style="height: 32px; color:#fff; background: #e62117; padding:5px;
     width: 42px;
 	position: fixed;
 	right: 2px;
