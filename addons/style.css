@@ -13,7 +13,10 @@
 	background: #3b5998; 
 	top:52px;
 }
-.aa-social .fa-facebook{
+.aa-social .fa-youtube{
 	background: #e62117; 
 	top:100px;
+}
+.aa-social .fa:hover {
+	opacity:0.75;
 }
