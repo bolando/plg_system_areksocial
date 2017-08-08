@@ -11,7 +11,7 @@ class plgSystemareksocial_f extends JPlugin{
 		
 		$CSS_FOLDER = JURI::root() . 'plugins/system/areksocial_f/addons/';
 		
-		$areksocialcss = '<link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'font-awesome.min.css" />'."\n";
+		$areksocialcss = '<link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'font-awesome.min.css" />'.'\n <link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'style.css" />';
 	
 
 		
@@ -22,15 +22,7 @@ class plgSystemareksocial_f extends JPlugin{
 
 		
 		$strOutputHTML = "";
-		$strOutputHTML .= '<a href="' . $link_fb . '"><i class="fa fa-facebook fa-4x" style="height: 42px; color:#fff; background: #3b5998; padding:5px;
-    width: 42px; font-size:30px; border-radius: 5px 0 0 5px; text-align:center;
-	position: fixed;
-	right: 0;
-	top: 52px;"></i></div></a><a href="' . $link_youtube . '"><i class="fa fa-youtube fa-4x" style="height: 42px; color:#fff; background: #e62117; font-size:30px; padding:5px; border-radius: 5px 0 0 5px;text-align:center;
-    width: 42px;
-	position: fixed;
-	right: 0;
-	top: 100px;"></i></div></a>';
+		$strOutputHTML .= '<div class="aa-social"><a target="_blank" href="' . $link_fb . '"><i class="fa fa-facebook " ></i></div></a><a target="_blank" href="' . $link_youtube . '"><i class="fa fa-youtube" ></i></div></a></div>';
 		
 		$body = $app->getBody();
 		if ($app->isSite() == false)

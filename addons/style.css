@@ -1,31 +1,19 @@
-
-
-.iconfb {
-	background-image: url("../images/fb.png");
-	height: 42px;
-    width: 42px;
+.aa-social .fa{
+	height: 42px; 
+	color:#fff; 
+	padding:5px;
+    width: 42px; 
+	font-size:30px; 
+	border-radius: 5px 0 0 5px; 
+	text-align:center;
 	position: fixed;
-	right: 2px;
-	top: 2px;
-
-	
+	right: 0;
 }
-
-
-.iconyoutube {
-	background-image: url("../images/youtube.png");
-	height: 42px;
-    width: 42px;
-	position: fixed;
-	right: 2px;
-	top: 44px;
+.aa-social .fa-facebook{
+	background: #3b5998; 
+	top:52px;
 }
-	
-.arek-social-options-wrapper .postbox {
-	padding: 10px 15px;
+.aa-social .fa-facebook{
+	background: #e62117; 
+	top:100px;
 }
-
-
-
-
-
