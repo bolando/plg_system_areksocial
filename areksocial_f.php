@@ -11,7 +11,7 @@ class plgSystemareksocial_f extends JPlugin{
 		
 		$CSS_FOLDER = JURI::root() . 'plugins/system/areksocial_f/addons/';
 		
-		$areksocialcss = '<link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'font-awesome.min.css" />'.'\n <link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'style.css" />';
+		$areksocialcss = '<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">'.'\n <link type="text/css" rel="stylesheet" href= "' . $CSS_FOLDER . 'style.css" />';
 	
 
 		

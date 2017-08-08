@@ -13,8 +13,7 @@
 	<files>
 		<filename plugin="areksocial_f">areksocial_f.php</filename>
 		<filename>index.html</filename>
-		<filename>/addons/font-awesome.min.css</filename>
-		<folder>fonts</folder>
+		<folder>addons</folder>
 
 	</files>
 		
