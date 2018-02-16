@@ -24,7 +24,14 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
+				<field
+					name="awesome"
+					type="radio" 
+					label="Czy ładować Font Awesome?" class="btn-group btn-group-yesno" default="1">
 				
+					  <option value="1">Tak</option>
+					  <option value="0">Nie</option>
+					</field>
 				<field
 					name="link_fb"
 					type="text" rows="12" cols="80"
@@ -36,6 +43,11 @@
 					type="text" rows="12" cols="80"
 					label="LINK_YOUTUBE_AREKSOCIAL_F_FIELD_LABEL"
 					description="LINK_YOUTUBE_AREKSOCIAL_F_FIELD_DESC"
+				/>
+				<field
+					name="link_insta"
+					type="text" rows="12" cols="80"
+					label="LINK_INSTAGRAM_AREKSOCIAL_F_FIELD_LABEL"
 				/>
 				
 			</fieldset>
